@@ -3,11 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>formulaire</title>
+    <title>dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-
-
+    <div class="flex h-screen">
+      <div class="flex flex-col justify-start h-full px-6 py-4 text-white w-72 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-extrabold mb-6 mt-3">Bienvenu sur votre Dashboard</h1>
+        
+        <div class="space-y-4">
+          <h1 class="text-xl flex items-center space-x-2 cursor-pointer transition transform hover:scale-105 hover:text-gray-200">
+            <span>🏠</span>
+            <span>Accueil</span>
+          </h1>
+          <h1 class="text-xl flex items-center space-x-2 cursor-pointer transition transform hover:scale-105 hover:text-gray-200">
+            <span>💬</span>
+            <span>Message</span>
+          </h1>
+          <h1 class="text-xl flex items-center space-x-2 cursor-pointer transition transform hover:scale-105 hover:text-gray-200">
+            <span>⚙️</span>
+            <span>Paramètre</span>
+          </h1>
+        </div>
+      </div>
+      
+      <div class="flex flex-col items-center justify-center h-full px-6 py-4 text-white w-full bg-red-500">
+        <h1 class="text-3xl font-bold">Accueil</h1>
+      </div>
+    </div>
+    
+    
+    </div>
   </body>
 </html>
